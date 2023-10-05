@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0 20px;
+   
+   
+}
+.nav img{
+    height: 90px;
+    
+   
+}
+.nav-part1{
+    height: 10px;
+    gap: 30px;
+    display: flex;
+    gap: 55pxpx;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.nav-part2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+    
+    
+}
+.nav-part2 button{
+    height: 50px;
+    background-color: white;
+    color: black;
+    /* border-radius: 5px; */
+    font-weight: 600;
+    padding: 18px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main h1{
+    font-size: 120px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.main h1 span{
+    background-color: brown;
+    font-size: 40px;
+    padding: 20px 25px;
+    border-radius: 50px;
+    margin: 0px 30px;
+}
+#left-image{
+    height: 250px;
+    border-radius: 50px;
+    top: 11%;
+    left: 11%;
+    position: absolute;
+
+}
+#right-image{
+    height: 200px;
+    border-radius: 50px;
+    bottom: 23%;
+    right: 7%;
+    position: absolute;
+
+}
+h5{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    bottom: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
